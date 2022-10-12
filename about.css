@@ -1,0 +1,183 @@
+@import
+ url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+ body{
+    margin:0;
+    font-family:'Raleway',sans-serif;
+ }
+body{
+    background-color:#fff;
+}
+
+header{
+    left: 0;
+    right: 0;
+    margin:1em;
+    text-align: center;
+}
+.logo{
+    width: 150px;
+    margin-left:16px;
+}
+nav ul{
+    padding-left:0px;
+    text-align: center;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding:2em;
+}
+nav a{
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #232323;
+    font-size:.9em;
+}
+
+nav a:hover,
+nav a:focus{
+    text-decoration: underline;
+}
+@media(min-width:60rem){
+   .logo{
+    float:left;
+   }
+}
+
+
+.detail1{
+    width:25%;
+    margin-top:15%;
+    margin-left:8%;
+}
+
+.detail1 a{
+    text-decoration: none;
+    font-size:1.4em;
+    background-color: #232323;
+    color:#fff;
+    padding:.5em .8em;
+    font-weight:400;
+    text-transform: uppercase;
+    border-radius:4px;
+}
+.detail1 h1{
+    font-size:3em;
+    margin-bottom:.1em;
+}
+.detail1 span{
+    color:orange;
+}
+.detail1 p{
+    font-size:1.2em;
+    margin-bottom:2em;
+}
+ 
+.im1{
+    width:45%;
+    position: absolute;
+    margin-bottom: 0px;
+}
+.im2{
+    margin-top:1.7em;
+    width:45%;
+    position:absolute;
+}
+
+.container{
+    display:flex;
+}
+
+.detail2{
+    margin-left:10%;
+}
+
+@media(min-width:20rem){
+    .container{
+        display:flex;
+        flex-direction: column;
+        margin-bottom:0;
+    }
+
+    .detail1{
+        width:100%;
+        margin-left:0;
+        margin-top:0;
+        text-align: center;
+    }
+    .detail1 h1{
+        font-size:2em;
+        margin-bottom:.1em;
+        text-align: center;
+    }
+
+    .detail1 p{
+        text-align: center;
+        margin-left:0px;
+        font-size:1em;
+    }
+
+    .detail1 a{
+        display: inline-block;
+        text-align: center;
+        font-size:1em;
+        padding:.4em .5em;
+    }
+
+    .im1{
+        width:82%;
+        position: absolute;
+        margin-top:6em;
+    }
+    .im2{
+        width:82%;
+        margin-top:6.8em;
+    }
+}
+
+@media(min-width:60rem){
+    .container{
+        display:flex;
+        flex-direction: row;
+    }
+    .im1{
+        width:45%;
+        position: absolute;
+        margin-bottom: 0px;
+        margin-top:.2em;
+    }
+    .im2{
+        margin-top:1.7em;
+        width:45%;
+        position:absolute;
+    }
+    .detail1 h1{
+        font-size:3em;
+        margin-bottom:.1em;
+    }
+    .detail1 span{
+        color:orange;
+    }
+    .detail1 p{
+        font-size:1.2em;
+        margin-bottom:2em;
+    }
+    .detail1{
+        width:25%;
+        margin-top:10%;
+        margin-left:8%;
+    }
+    .detail1 a{
+        text-decoration: none;
+        font-size:1.4em;
+        padding:.5em .8em;
+        font-weight:400;
+        text-transform: uppercase;
+        border-radius:4px;
+    }
+}
+
+
+

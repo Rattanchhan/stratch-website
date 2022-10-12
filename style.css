@@ -1,0 +1,519 @@
+@import
+ url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+ body{
+    margin:0;
+    font-family:'Raleway',sans-serif;
+    text-align: center;
+ }
+
+ *{
+    box-sizing: border-box;
+    transition: all ease-in-out 250ms;
+ }
+
+ header{
+   position: absolute;
+    left: 0;
+    right: 0;
+    margin:1em;
+ }
+ .logo{
+    width: 150px;
+ }
+
+ nav ul{
+    padding:0;
+    float:right;
+    list-style-type: none;
+    margin-top:1em;
+    margin-left:1em;
+    left:0;
+    right:0;
+ }
+
+ nav li{
+    display:inline-block;
+    margin:2em;
+ }
+
+ nav a{
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size:.9em;
+ }
+
+ @media(min-width:20rem){
+   nav ul{
+      margin-top:7em;
+   }
+ }
+ @media(min-width:20rem){
+   nav a:hover,nav a:focus{
+      color:rgb(102, 86, 250);
+      text-decoration: underline;
+    }
+ }
+
+ @media(min-width:60rem){
+   nav a:hover,nav a:focus{
+      color:rgb(102, 86, 250);;
+      text-decoration: underline;
+    }
+ }
+
+ .home-hero{
+    background-image: url(image/jeff-sheldon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding:23em 0;
+ }
+
+
+
+ figure img{
+   width:40rem;
+ }
+
+ .title{
+   font-size:2.5rem;
+   color:#FFF;
+   font-weight: 900;
+ }
+ .title span{
+   font-weight: 300;
+   display:block;
+   font-size: 1 em;
+ }
+
+ .button-button-accent{
+   display:inline-block;
+   text-decoration: none;
+   color:rgb(45, 234, 171);
+   text-transform: uppercase;
+   font-size:1.15rem;
+   border-width:2px;
+   border-style: solid ;
+   padding:.5em 1.75em;
+ }
+
+ .button-button-accent:hover,
+ .button-button-accent:focus{
+   background-color:#00ff6c;
+   color:gray;
+   border-color: #00ff6c;
+ }
+
+ @media (min-width:60rem){
+   .title{
+      font-size:3.7rem;
+   }
+ }
+
+@media(min-width:60rem){
+   .logo{
+      float:left;
+   }
+   nav ul{
+      float:right;
+      margin-top:1em;
+      position: absolute;
+      margin-right: 1em;
+   }
+  
+}
+
+@media(min-width: 60rem){
+   .home-hero{
+     height: 140vh;
+     padding-top:50vh;
+   }
+   .button-button-accent{
+      font-size: 1.5rem;
+   }
+}
+
+.home-about-textbox{
+   background-color:#232323;
+   padding: 3em;
+   outline:2px solid #00ff6c;
+   outline-offset:-2.5em;
+   color:#fff;
+   margin-top:0;
+   position:relative;
+   margin-left:2em;
+}
+
+.text{
+   font-size: 1.5em;
+   color:#00ff6c;
+   position:absolute;
+   top:.9em;
+   margin-top:0px;
+   background-color:#232323;
+   left:50%;
+   transform: translateX(-50%);
+}
+
+
+@media (min-width:20rem){
+   .home-about{
+      background-image: url(image/alexandru-acea-XEB8y0nRRP4-unsplash.jpg);
+      padding:2.5em;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding:4em 0;
+   }
+   .home-about-textbox{
+      width:80vw;
+   }
+
+}
+
+@media(min-width:20rem){
+   .button-accent-button-small{
+      font-size:1.15em;
+   }
+}
+
+
+.button-accent-button-small{
+   display:inline-block;
+   font-size:1.15em;
+   text-transform: uppercase;
+   text-decoration:none;
+   color:#35e980;
+   border-style: solid;
+   border-width: 2px;
+   padding:.5em 1.75em;
+}
+
+.button-accent-button-small:hover,
+.button-accent-button-small:focus{
+   background: #00ff6c;
+   color:#232323;
+}
+
+.portfolio{
+   margin:3em 0;
+}
+.port-item1{
+   margin:0px;
+   position: relative;
+}
+.port-item2{
+   margin:0px;
+   position: relative;
+}
+.port-item3{
+   margin:0px;
+   position: relative;
+}
+.port-item4{
+   margin:0px;
+   position: relative;
+}
+.port-item5{
+   margin:0px;
+   position: relative;
+}
+.port-item6{
+   margin:0px;
+   position: relative;
+}
+.port-item7{
+   margin:0px;
+   position: relative;
+}
+.port-item8{
+   margin:0px;
+   position: relative;
+}
+
+.port-desc{
+   position:absolute;
+   z-index: 100;
+   left:0em;
+   right:0em;
+   bottom:0em;
+   background-color: rgba(0,0,0,.75);
+   color:#fff;
+   padding:0.8em;
+
+}
+.port-desc p{
+   margin:0;
+}
+
+@media(min-width:20rem){
+   .port-item1{
+      width:100%;
+      overflow: hidden;
+   }
+   .port-item2{
+      width:100%;
+      overflow: hidden;
+   }
+   .port-item3{
+      width:100%;
+      overflow: hidden;
+   }
+   .port-item4{
+      width:100%;
+      overflow: hidden;
+   }
+   .port-item5{
+      width:100%;
+      overflow: hidden;
+   }
+   .port-item6{
+      width:100%;
+      overflow: hidden;
+   }
+   .port-item7{
+      width:100%;
+      overflow: hidden;
+   }
+   .port-item8{
+      width:100%;
+      overflow: hidden;
+   }
+   .port-desc{
+      transform:translatex(200%);
+   }
+
+
+   .port-item1:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item2:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item3:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item4:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item5:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item6:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item7:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item8:hover .port-desc{
+      transform:translateY(0%);
+   }
+}
+
+.port-item1 img{
+   display:block;
+   width:100%;
+}
+.port-item2 img{
+   display:block;
+   width:100%;
+}
+.port-item3 img{
+   display:block;
+   width:100%;
+}
+.port-item4 img{
+   display:block;
+   width:100%;
+}
+.port-item5 img{
+   display:block;
+   width:100%;
+}
+.port-item6 img{
+   display:block;
+   width:100%;
+}
+.port-item7 img{
+   display:block;
+   width:100%;
+}
+.port-item8 img{
+   display:block;
+   width:100%;
+}
+@media (min-width:60rem){
+   .port-item1{
+      width:25%;
+      float:left;
+      overflow: hidden;
+   }
+   .port-item2{
+      width:25%;
+      float:left;
+      overflow: hidden;
+   }
+   .port-item3{
+      width:25%;
+      float:left;
+      overflow: hidden;
+   }
+   .port-item4{
+      width:25%;
+      float:left;
+      overflow: hidden;
+   }
+   .port-item5{
+      width:25%;
+      float:left;
+      overflow: hidden;
+   }
+   .port-item6{
+      width:25%;
+      float:left;
+      overflow: hidden;
+   }
+   .port-item7{
+      width:25%;
+      float:left;
+      overflow: hidden;
+   }
+   .port-item8{
+      width:25%;
+      float:left;
+      overflow: hidden;
+   }
+   .port-desc{
+      transform:translateY(200%);
+   }
+
+   .port-item1:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item2:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item3:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item4:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item5:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item6:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item7:hover .port-desc{
+      transform:translateY(0%);
+   }
+   .port-item8:hover .port-desc{
+      transform:translateY(0%);
+   }
+}
+
+.cta{
+   background-color: #34d176;
+   padding:2em;
+}
+.title1{
+   font-size:2em;
+   font-weight: 900;
+   color:#fff;
+   position: relative;
+   bottom:.8em;
+
+}
+.title1 span{
+   display:block;
+   font-size:.8em;
+   font-weight: 300;
+}
+
+.button-accent1{
+    text-decoration: none;
+    color:#57436f;
+    text-transform: uppercase;
+    border-width:2px;
+    border-style:solid;
+    padding:.5em 1.75em;
+    font-weight: 600;
+    display: inline-block;
+    bottom:.8em;
+
+}
+
+.button-accent1:hover,
+.button-accent1:focus{
+   background-color: #57436f;
+   color:#fff;
+   border-color:#57436f;
+}
+
+.clearfix::after,
+section::after{
+   content: '';
+   display: block;
+   clear:both;
+}
+
+.unstyled-3, .unstyled-2, .unstyled-1{
+   list-style-type: none;
+}
+
+footer{
+   padding:2em;
+   background-color: #232323;
+   display:flex;
+   flex-direction:row;
+   
+}
+
+
+@media(min-width:20rem){
+   footer{
+      display:flex;
+      flex-direction: column;
+   }
+   .span-3 p, .span-1 li, .span-2 li, .span-0 li{
+      color:#fff;
+   }
+   
+   .span-3{
+      margin:0em;
+      padding:0em;
+   }
+   
+   .span-2, .span-1, .span-0{
+      padding:0 4em;
+   }
+}
+
+@media(min-width:60rem){
+   footer{
+      display: flex;
+      flex-direction: row;
+   }
+   .span-3 p, .span-1 li, .span-2 li, .span-0 li{
+      color:#fff;
+   }
+   
+   .span-3{
+      margin:0em;
+      padding:0em;
+   }
+   
+   .span-2, .span-1, .span-0{
+      padding:0 4em;
+   }
+   
+}
+
+
+
+
+
